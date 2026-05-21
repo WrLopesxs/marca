@@ -14,9 +14,9 @@
     <section class="hero-card">
       <div class="hero-copy">
         <p class="eyebrow">Toyota QC</p>
-        <h1>Marcacao padronizada de defeitos</h1>
+        <h1>Marcação  de defeitos</h1>
         <p class="hero-text">
-          Selecione um defeito padronizado, clique sobre a peca e ajuste o marcador com poucos movimentos.
+          Selecione um defeito e clique sobre a peca e ajuste o marcador com poucos movimentos.
         </p>
       </div>
 
@@ -61,8 +61,8 @@
         </div>
 
         <div class="action-stack">
-          <button class="primary-btn" id="loadImageButton" type="button">Buscar imagem da peca</button>
-          <button class="secondary-btn" id="saveButton" type="button">Salvar marcacao</button>
+          <button class="primary-btn" id="loadImageButton" type="button">Buscar imagem da peça</button>
+          <button class="secondary-btn" id="saveButton" type="button">Salvar marcação</button>
           <button class="ghost-btn" id="removeSelectedButton" type="button">Remover selecionado</button>
           <button class="ghost-btn" id="clearButton" type="button">Limpar marcadores</button>
         </div>
@@ -70,7 +70,7 @@
         <section class="selection-box">
           <div class="card-head compact-head">
             <div>
-              <h2>Defeitos padronizados</h2>
+              <h2>Defeitos</h2>
               <p class="hint">Escolha um tipo e clique na peca.</p>
             </div>
             <span class="pill" id="markerCount">0 marcadores</span>
@@ -81,7 +81,7 @@
             <div>
               <p class="selected-defect-label">Defeito selecionado</p>
               <h3 id="selectedDefectName">Nenhum</h3>
-              <p id="selectedDefectHint">Selecione um item da lista para marcar a peca.</p>
+              <p id="selectedDefectHint">Selecione um item da lista para marcar a peça.</p>
             </div>
           </div>
 
@@ -92,7 +92,7 @@
       <section class="marker-card">
         <div class="card-head">
           <div>
-            <h2>Area de marcacao</h2>
+            <h2>Area de marcação</h2>
             <p id="canvasSubtitle">Nenhuma imagem carregada.</p>
           </div>
           <span id="canvasMode" class="pill">Pronto</span>
@@ -104,7 +104,7 @@
               <img id="baseImage" alt="Peca para marcacao">
               <div id="markerLayer" class="marker-layer" aria-live="polite"></div>
               <div id="canvasEmpty" class="canvas-empty">
-                <p>A imagem da peca vai aparecer aqui.</p>
+                <p>A imagem da peça vai aparecer aqui.</p>
               </div>
             </div>
           </div>
